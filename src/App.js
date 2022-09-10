@@ -23,7 +23,7 @@ function App() {
           ? 'Loading......'
           : todos.map((todo, index) => (
               <li key={index}>
-                {todo.title} {todo.completed ? '✅' : 'X'}
+                {todo.title} {todo.completed ? '✅' : '❌'}
               </li>
             ))}
       </ul>
